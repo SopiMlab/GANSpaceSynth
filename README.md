@@ -8,8 +8,10 @@ Also included is Hallu, our composition tool for Pure Data demonstrating the use
 
 Installation instructions are currently [here](https://github.com/SopiMlab/DeepLearningWithAudio/tree/master/utilities/pyext-setup).
 
-## BibTeX citation
+## Paper (AIMC 2021)
+
+Coming soon
 
 ```
-coming soon
+bibtex citation goes here
 ```
