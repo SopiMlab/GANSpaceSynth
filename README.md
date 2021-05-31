@@ -151,7 +151,7 @@ An example Hallu composition, created using a model trained by Oskar Koli on a d
 
 ## Installation
 
-We have detailed [tutorials](https://github.com/SopiMlab/DeepLearningWithAudio/tree/master/utilities/pyext-setup) for setting up the prerequisites for GANSpaceSynth in a [Conda](https://conda.io/) environment. After finishing the tutorial, you can simply open the `.pd` files in this repository.
+We have detailed [tutorials](https://github.com/SopiMlab/DeepLearningWithAudio/tree/master/utilities/pyext-setup) for setting up GANSpaceSynth in a Conda environment. After finishing the tutorial, you can simply open the `.pd` files in this repository.
 
 To run GANSpaceSynth, you will need:
 
