@@ -125,9 +125,27 @@ Below are links to the corresponding audio files and some descriptions of our in
     </tr>
 </table>
 
+## Performance
+
+Generation performance is more or less identical to GANSynth. Computing the linear combination of PCA coefficients adds some overhead, but it appears to be marginal compared to generation itself.
+
+Using our test PC with
+
+- Intel Core i7-10170U CPU,
+- NVIDIA GTX 1080 Ti GPU (connected via Thunderbolt 3),
+
+we are able to generate a batch of eight 4-second, 16000 Hz samples in
+
+- 1.2 seconds on CPU (generation rate 107 kHz),
+- 65 milliseconds on CPU (generation rate 2000 kHz).
+
 ## Hallu
 
 As an example application of GANSpaceSynth, we include the Hallu composition tool (`hallu.pd`). It allows composing pieces by defining paths through the latent space, interpolating between them, and stitching together audio samples synthesized at each point.
+
+The below image shows how Hallu provides a controlled structure to interpolate between points in latent space.
+
+![Hallu](media/HALLU22.png)
 
 ## Installation
 
