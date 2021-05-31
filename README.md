@@ -147,6 +147,8 @@ The below image shows how Hallu provides a controlled structure to interpolate b
 
 ![Hallu](media/HALLU22.png)
 
+An example Hallu composition, created using a model trained by Oskar Koli on a dataset of ambient music, can be found [here](https://drive.google.com/file/d/1grkiBEehfNOD_2wj-EG0SO0CBK4_hyPz/view?usp=sharing).
+
 ## Installation
 
 To run GANSpaceSynth, you will need:
