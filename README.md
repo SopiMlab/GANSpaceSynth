@@ -151,6 +151,8 @@ An example Hallu composition, created using a model trained by Oskar Koli on a d
 
 ## Installation
 
+We have detailed [tutorials](https://github.com/SopiMlab/DeepLearningWithAudio/tree/master/utilities/pyext-setup) for setting up the prerequisites for GANSpaceSynth in a [Conda](https://conda.io/) environment. After finishing the tutorial, you can simply open the `.pd` files in this repository.
+
 To run GANSpaceSynth, you will need:
 
 - [Pure Data](https://puredata.info/)
@@ -158,8 +160,6 @@ To run GANSpaceSynth, you will need:
 - [SopiMlab/flext](https://github.com/SopiMlab/flext)
 - [SopiMlab/magenta](https://github.com/SopiMlab/magenta)
 - [SopiMlab/SopiLib](https://github.com/SopiMlab/SopiLib)
-
-We have [tutorials](https://github.com/SopiMlab/DeepLearningWithAudio/tree/master/utilities/pyext-setup) for setting up a [Conda](https://conda.io/) environment and installing all the necessary bits.
 
 ## Paper (AIMC 2021)
 
