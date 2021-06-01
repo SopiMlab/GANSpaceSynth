@@ -76,8 +76,8 @@
 #X array \$0-edits 8192 float 2;
 #X coords 0 1 8192 -1 200 100 1 0 0;
 #X restore -127 801 graph;
-#X obj 576 132 ganspacesynth_halluseq/numberslider2way 0 32;
-#X obj 125 337 ganspacesynth_halluseq/edit_sliders \$0-edits;
+#X obj 576 132 hallu/numberslider2way 0 32;
+#X obj 125 337 hallu/edit_sliders \$0-edits;
 #X obj 169 -33 bang;
 #X obj 111 204 bng 20 250 50 0 empty empty empty 17 7 0 10 -232576
 -1 -1;
@@ -114,11 +114,11 @@
 release;
 #X msg -98 710 hallucinate_noz \$1-out_audio;
 #X msg 605 823 write -wave -rate 16000 -bytes 3 \$1 \$2-out_audio;
-#X obj 576 180 ganspacesynth_halluseq/numberslider2way 0 4;
-#X obj 576 228 ganspacesynth_halluseq/numberslider2way 0 4;
-#X obj 576 276 ganspacesynth_halluseq/numberslider2way 0 4;
-#X obj 576 324 ganspacesynth_halluseq/numberslider2way 0 4;
-#X obj 576 373 ganspacesynth_halluseq/numberslider2way 0 4;
+#X obj 576 180 hallu/numberslider2way 0 4;
+#X obj 576 228 hallu/numberslider2way 0 4;
+#X obj 576 276 hallu/numberslider2way 0 4;
+#X obj 576 324 hallu/numberslider2way 0 4;
+#X obj 576 373 hallu/numberslider2way 0 4;
 #X obj 170 -74 route step settings worker updated synthesized hallucinated
 ;
 #X obj 898 -66 expr $f1-2 \; $f1/16000*1000;
@@ -343,7 +343,7 @@ License along with this program \; if not \, write to the Free Software
 Foundation \, Inc. \, 51 Franklin Street \, Fifth Floor \, Boston \,
 MA 02110-1301 \, USA.;
 #X restore 1216 656 pd license;
-#X text 1072 481 ganspacesynth_halluseq.pd \, a tool for composing
+#X text 1072 481 hallu.pd \, a tool for composing
 audio hallucinations with GANSpaceSynth \, is provided by SOPI research
 group (https://sopi.aalto.fi) Aalto University \, School of Arts \,
 Design and Architecture 2021 \, under the GPL license GNU General Public
