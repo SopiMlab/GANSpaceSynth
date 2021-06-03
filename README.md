@@ -152,7 +152,7 @@ An example Hallu composition, created using a model trained by Oskar Koli on a d
 
 ## Organising the Latent Space using a Dimensionality Reduction
 
-Another application of GANSpaceSynth is the AI-terity autonomous musical instrument  (http://sopi.aalto.fi/alterity/) in which particular jump points in latent space are organised autonomously for real-time audio synthesis.  The video linked [here] (https://vimeo.com/558363454) demonstrates the latent space exploration with GANSpaceSynth.
+Another application of GANSpaceSynth is the AI-terity autonomous musical instrument  (http://sopi.aalto.fi/alterity/) in which particular jump points in latent space are organised autonomously for real-time audio synthesis.  The video linked [here](https://vimeo.com/558363454) demonstrates the latent space exploration with GANSpaceSynth.
 
 
 ## Installation
