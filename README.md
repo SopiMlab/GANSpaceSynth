@@ -1,6 +1,6 @@
 # GANSpaceSynth
 
-GANSpaceSynth is a hybrid architecture for sound synthesis with deep neural networks that applies the [GANSpace](https://arxiv.org/abs/2004.02546) method to the [GANSynth](https://openreview.net/forum?id=H1xQVn09FX) model. Using dimensionality reduction (PCA), we organize the latent space of trained GANSynth models, obtaining controls for exploring the range of sounds that can be synthesized.
+GANSpaceSynth is a hybrid architecture for audio synthesis with deep neural networks that applies the [GANSpace](https://arxiv.org/abs/2004.02546) method to the [GANSynth](https://openreview.net/forum?id=H1xQVn09FX) model. Using dimensionality reduction (PCA), we organise the latent space of trained GANSynth models, obtaining controls for exploring the range of sounds that can be synthesised.
 
 To perform GANSpace on GANSynth, we feed a large number of random latent vectors to the model and record the activations on an early convolutional layer of the network. We then use incremental PCA to compute the most significant directions in the activation space, as well as the global mean and standard deviation along each direction. When synthesizing, we give a coefficient for each direction, denoting how far to move along that direction (scaled by the standard deviation) starting from the global mean.
 
