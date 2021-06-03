@@ -149,6 +149,11 @@ The below image shows how Hallu provides a controlled structure to interpolate b
 
 An example Hallu composition, created using a model trained by Oskar Koli on a dataset of ambient music, can be found [here](https://drive.google.com/file/d/1grkiBEehfNOD_2wj-EG0SO0CBK4_hyPz/view?usp=sharing).
 
+
+## Organising the Latent Space using a Dimensionality Reduction
+Another application of GANSpaceSynth is the AI-terity atonomous musical intrument (http://sopi.aalto.fi/alterity/) in which particular jump points in latent space are organised autonomously for real-time audio synthesis.  The video linked [here] (https://vimeo.com/558363454) demonstrates the latent space exploration with GANSpaceSynth.
+
+
 ## Installation
 
 We have detailed [tutorials](https://github.com/SopiMlab/DeepLearningWithAudio/tree/master/utilities/pyext-setup) for setting up GANSpaceSynth in a Conda environment. After finishing the tutorial, you can simply open the `.pd` files in this repository.
