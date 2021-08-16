@@ -167,12 +167,25 @@ To run GANSpaceSynth, you will need:
 - [SopiMlab/magenta](https://github.com/SopiMlab/magenta)
 - [SopiMlab/SopiLib](https://github.com/SopiMlab/SopiLib)
 
-## Paper (AIMC 2021)
-
-Coming soon
+## Citation
 
 ```
-bibtex citation goes here
+@inproceedings{koray_tahiroglu_2021_5137902,
+  author       = {Koray Tahiroğlu and
+                  Miranda Kastemaa and
+                  Oskar Koli},
+  title        = {GANSpaceSynth: A Hybrid Generative Adversarial Network Architecture for Organising the Latent Space using a Dimensionality Reduction for Real-Time Audio Synthesis},
+  booktitle    = {{Proceedings of the 2nd Joint Conference on AI 
+                   Music Creativity}},
+  year         = 2021,
+  pages        = 10,
+  publisher    = {AIMC},
+  address      = {Online},
+  month        = jul,
+  venue        = {Online},
+  doi          = {10.5281/zenodo.5137902},
+  url          = {https://doi.org/10.5281/zenodo.5137902}
+}
 ```
 
 ## License
